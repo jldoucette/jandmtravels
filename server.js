@@ -1,8 +1,20 @@
+
+
 const http = require('http');
+const bodyParser = require("body-parser");
+const path = require("path");
 const express = require('express');
 const MessagingResponse = require('twilio').twiml.MessagingResponse;
 
 const app = express();
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
+
+require("./app/htmlRoutes.js")(app);
+
 var messagetosend;
 var messageto;
 

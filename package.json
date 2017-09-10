@@ -4,7 +4,9 @@
   "description": "Jonathan and Micheal Travel site",
   "main": "server.js",
   "dependencies": {
+    "body-parser": "^1.18.0",
     "express": "^4.15.4",
+    "path": "^0.12.7",
     "twilio": "^3.6.6"
   },
   "devDependencies": {},
