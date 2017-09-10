@@ -1,0 +1,25 @@
+{
+  "name": "jandmtravels",
+  "version": "1.0.0",
+  "description": "Jonathan and Micheal Travel site",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "twilio": "^3.6.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jldoucette/jandmtravels.git"
+  },
+  "author": "JLD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jldoucette/jandmtravels/issues"
+  },
+  "homepage": "https://github.com/jldoucette/jandmtravels#readme"
+}
